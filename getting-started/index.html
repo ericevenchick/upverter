@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title>Getting Started with Upverter</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+<div id="header">
+<h1 class="title">Getting Started with Upverter</h1>
+</div>
+<p>Welcome to Upverter. Here's a guide to get you started with designing schematics and printed circuit boards (PCBs) in our tool.</p>
+<h2 id="creating-an-account">Creating an Account</h2>
+<p>The first step to working in Upverter is creating an account. To do this, go to <a href="http://www.upverter.com">upverter.com</a> and click <em>Signup</em> in the top right. You'll be presented with our pricing options:</p>
+<h3 id="professional-team">Professional Team</h3>
+<p>This account type is for businesses looking to use Upverter. It will allow you to manage a team of users, and handles billing for multiple accounts.</p>
+<h3 id="awesome-individual">Awesome Individual</h3>
+<p>This account type is for individual users who need to work on projects privately. It will allow you to collaborate on both private and public projects.</p>
+<h3 id="open-source-team">Open-Source Team</h3>
+<p>This account type is for open source projects that want to collaborate. It allows for multiple projects, but all these projects will be publicly visible. You will need to create an account (Awesome or Open Source individual) before creating an open source team.</p>
+<h3 id="open-source-individual">Open-Source Individual</h3>
+<p>This account type allows you to create and collaborate on projects that are publicly visible.</p>
+<p>You can evaluate the Awesome Individual or Professional Team accounts for one month. If you have any questions about evaluations or pricing, please contact us.</p>
+<p>Select either Awesome Individual or Open-Source Individual, fill out the sign up form, and click <em>Create My Account</em>. You'll now have the option to watch the walk through video, and fork your first design. Click <em>Proceed to Dashboard</em> in the top right to continue.</p>
+<h2 id="the-dashboard">The Dashboard</h2>
+<p>Your dashboard is the center of all your activity on Upverter. From here you can see:</p>
+<ul>
+<li>Your news feed, showing things you've recently done or actions that have been performed on your designs.</li>
+<li>Your projects</li>
+<li>Your Teams</li>
+<li>Projects you're watching</li>
+<li>Your favorite parts</li>
+<li>Parts you've modified</li>
+<li>Your notifications</li>
+<li>Hackers you follow</li>
+</ul>
+<p>At the top of the page, there are actions you can take. Lets start a new project by clicking <em>New Project</em>.</p>
+<div class="figure">
+<img src="dashboard-actions.png" alt="Dashboard Actions" /><p class="caption">Dashboard Actions</p>
+</div>
+<h2 id="creating-a-project">Creating a Project</h2>
+<p>This will open the new project dialog. From here, you can name your project, set a description, add tags, set a license, and link the project to Github. On the other tabs, you can set permissions and write a read me for the project. You can always change these settings later, so lets create a simple project:</p>
+<div class="figure">
+<img src="create-project.png" alt="Create Project" /><p class="caption">Create Project</p>
+</div>
+<h2 id="the-project-page">The Project Page</h2>
+<p>Once we create the project, we're taken to the project page. This is where you can see all the information on your project. As with the dashboard, the actions are shown at the top of the page.</p>
+<div class="figure">
+<img src="project-actions.png" alt="Project Actions" /><p class="caption">Project Actions</p>
+</div>
+<p>With these actions we can comment on the project, open it up in the editor, order PCBs and components, and change settings. Lets start up the editor to start working on our project. Click <em>Open in Editor</em>.</p>
+<h2 id="the-schematic-editor">The Schematic Editor</h2>
+<p>When the schematic editor first starts up, you will get a quick tour. This will point out the main parts of the schematic editor. When you're done with it, click <em>Get Started</em>.</p>
+<h3 id="the-toolbar">The Toolbar</h3>
+<p>On the left side of the tool, we have the toolbar. This lets us select tools to edit our schematic. Most tools also have sub-tools. Lets look at the tools that are available.</p>
+<div class="figure">
+<img src="schematic-toolbar.png" alt="Schematic Toolbar" /><p class="caption">Schematic Toolbar</p>
+</div>
+<p>From top to the bottom, the tools are:</p>
+<ul>
+<li><strong>Select and Move</strong>. This lets you select things and move them around. You can also drag a box in the background to select a group of things.
+<ul>
+<li><strong>Rotate Left</strong>, rotate a component left</li>
+<li><strong>Rotate Right</strong>, rotate a component right</li>
+<li><strong>Flip</strong>, flip a component vertically</li>
+<li><strong>Copy</strong></li>
+<li><strong>Paste</strong></li>
+<li><strong>Delete</strong></li>
+<li><strong>Inspect</strong>, show data about the selected item</li>
+</ul></li>
+<li><strong>Add component</strong>, click the drop down to search the library for a component</li>
+<li><strong>Net</strong>, draws nets, which define connections between pins.</li>
+<li><strong>Connection marker</strong>, which lets you place flags to mark nets. These are useful for replacing long nets, and for replacing common nets such as ground.</li>
+<li><strong>Annotation</strong>, which lets you place text on your schematic for reference.</li>
+<li><strong>Pan</strong>, which lets you drag to move around the schematic.
+<ul>
+<li>You can also click and hold to pan</li>
+</ul></li>
+</ul>
+<p>You can also use the shortcut key for each tool, which is shown when holding your mouse over the tool. Learning the shortcuts is key to working quickly in the tool.</p>
+<h3 id="panels">Panels</h3>
+<div class="figure">
+<img src="schematic-panels.png" alt="Schematic Panels" /><p class="caption">Schematic Panels</p>
+</div>
+<p>On the right side of the schematic editor, there's the panels bar. This lets you open the various panels. They are:</p>
+<ul>
+<li><strong>History</strong>, which shows the actions you've done and lets you undo and redo them.</li>
+<li><strong>Parts</strong>, which lists all the parts in your design</li>
+<li><strong>Design rules</strong>, which shows violations of design rules, and lets you set which rules are enabled</li>
+<li><strong>Nets</strong>, which lists all the nets in your design</li>
+<li><strong>Simulation</strong>, which allows you to run simulations</li>
+</ul>
+<h3 id="creating-a-schematic">Creating a Schematic</h3>
+<p>Lets create a basic schematic. We'll do this by adding some parts, and connecting them using nets.</p>
+<p>First, lets add a 9 volt battery holder. Click the add component tool on the left, then click the drop down. Type 'Keystone 968' in the search box and hit enter. This will return matching parts. We're looking for the Keystone 968 battery holder. Double click the part, then place it on your schematic.</p>
+<div class="figure">
+<img src="add-battery.png" alt="Add Component" /><p class="caption">Add Component</p>
+</div>
+<p>Next, we'll place a generic resistor. To place this part, click on the add component tool, and click the drop down. Find the resistor in the list of generic parts and click it. Place it to the right of the battery.</p>
+<div class="figure">
+<img src="place-resistor.png" alt="Place Resistor" /><p class="caption">Place Resistor</p>
+</div>
+<p>We need to change the footprint of the resistor. To do this, double click it to open the inspector.</p>
+<div class="figure">
+<img src="symbol-inspector.png" alt="Symbol Inspector" /><p class="caption">Symbol Inspector</p>
+</div>
+<p>From the footprint dropdown, select <em>axial</em>. We'll also change the resistance property from 5k to 200. When you're done, click Save.</p>
+<p>The final component we'll add is an LED. Click the add component tool, then the drop down. Search for 'TLDR4900', which is a generic RED led. Double click the part to add it, and press 'r' to rotate it. Place the LED to the right and below the resistor.</p>
+<div class="figure">
+<img src="place-led.png" alt="Place LED" /><p class="caption">Place LED</p>
+</div>
+<p>Now that we've place our components, lets connect them with nets. Click the net tool on the left and click the '9V' pin of the battery holder, then click the left pin of the resistor to make a connection.</p>
+<div class="figure">
+<img src="first-connection.png" alt="First Connection" /><p class="caption">First Connection</p>
+</div>
+<p>Continue to use the net tool to make connections as shown:</p>
+<div class="figure">
+<img src="all-connections.png" alt="All Connections" /><p class="caption">All Connections</p>
+</div>
+<p>Finally, we'll add a ground to our circuit. Click the connection marker tool on the left, then click GND.</p>
+<div class="figure">
+<img src="select-gnd.png" alt="Select Ground" /><p class="caption">Select Ground</p>
+</div>
+<p>We'll add the ground to our circuit and use the net tool to connect it:</p>
+<div class="figure">
+<img src="add-gnd.png" alt="Adding Ground" /><p class="caption">Adding Ground</p>
+</div>
+<p>Our schematic is complete! We can check out what parts we're using using the parts pane on the right. Note that there's a footprint symbol beside each of our parts. This means they have footprints and can be added to a PCB.</p>
+<h2 id="the-pcb-editor">The PCB Editor</h2>
+<h3 id="laying-out-a-pcb">Laying out a PCB</h3>
+<p>Now that we have a completed schematic, lets lay out a PCB. Switch over to the PCB view using the <em>PCB Editor</em> button at the top of the page. This will show us our PCB.</p>
+<div class="figure">
+<img src="pcb-first.png" alt="PCB first" /><p class="caption">PCB first</p>
+</div>
+<p>Lets set our board size first. Double click in the background to open the inspector, then set the size to 1.2 inches by 1.2 inches. Click save then close the dialog.</p>
+<div class="figure">
+<img src="board-details.png" alt="Board Details" /><p class="caption">Board Details</p>
+</div>
+<p>This blue outline shows the edge of our PCB. It will be used by the manufacturer to cut the board out. Now we'll click and drag the components to place them inside the board. We'll also click the components and press 'r' to rotate them.</p>
+<div class="figure">
+<img src="placed-components.png" alt="Placed Components" /><p class="caption">Placed Components</p>
+</div>
+<p>Now we need to connect our components. Note the red lines between the pads. This is called the ratsnest, and it shows where we need to draw traces to connect our components together.</p>
+<p>To draw a trace, click the trace tool on the left or press 'a'. While drawing a trace, press space to switch the trace angle. Place the traces between all of the pads that are connected with red lines to complete the circuit.</p>
+<div class="figure">
+<img src="routed.png" alt="Routed" /><p class="caption">Routed</p>
+</div>
+<p>Now our board is routed, but lets add a pour to fill in the empty spaces. Click the pour tool on the left, then draw a square around the board. Press 'esc' when you're done drawing to finish the pour.</p>
+<p>Double click on your pour outline to open the pour inspector.</p>
+<div class="figure">
+<img src="pour-inspector.png" alt="Pour Inspector" /><p class="caption">Pour Inspector</p>
+</div>
+<p>Set the <em>net attachment</em> to 'GND' so our pour connects to ground, then click <em>Regenerate Pour</em>. Finally, click the eye to make the pour visible.</p>
+<div class="figure">
+<img src="pour-visible.png" alt="Pour Visible" /><p class="caption">Pour Visible</p>
+</div>
+<p>Now our PCB looks good. But how do we get it made?</p>
+</body>
+</html>
